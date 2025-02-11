@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html>
-   <head>
-    <title>
-        Coming out soon..
-    </title>
-   </head> 
-   <body>
-    <h1>Workng on the projects section. It will be out soon.</h1>
-   </body>
+<html lang="en">
+    <head>
+        <title>Projects - Jashanpreet Singh</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="image avatar"><img src="images/profile2.jpg" alt="" /></a>
+            <h1><strong>I am Jashan</strong>, a University Student<br />
+            of Cyber Security, passionate about ethical<br />
+            hacking and proactive security techniques.</h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Navigation -->
+        <section id="zero">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
+    
+    <section id="Cryptography" class="project-section">
+        <h2>Cryptography Projects</h2>
+        <article class="project">
+            <img src="images/Hill's_message_protector.png" alt="Project 1">
+            <h3>Hill-Cipher-decryption in Python</h3>
+            <p>In this task, I wrote a Python code that would implement the Hill Cipher Decryption given the input fields like the ciphertext and its adjacent matrix.</p>
+            <P>📌 Skills & Tools: Python, Cryptanalysis, Matrix Operations</P>
+            <a href="https://github.com/jashan-lefty/Hill-Cipher-decryption" target="_blank">View on GitHub</a>
+            <br>
+            <br>
+            <br>
+            
+            <h3>RSA Encryption in Python</h3>
+            <p>The Rivest-Shamir-Adleman (RSA) algorithm is a widely used public-key cryptographic system that enables secure data transmission. It is based on the mathematical properties of prime numbers and modular arithmetic. I Developed a python code in jupyter to implement the working of algorithm step by step.</p>
+            <p>📌 Skills & Tools: Public key Cryptography, Python, RSA Security</p>
+            <a href="https://github.com/jashan-lefty/RSA-in-python" target="_blank">View on GitHub</a>
+            <br>
+            <br><br>
+            <h3>Quantum Cryptography research project</h3>
+            <p>I Researched Quantum Key Distribution (QKD) Used Shor’s Algorithm to demonstrate breaking RSA encryption.</p>
+            <p>📌 Skills & Tools: Quantum Cryptography, Shor's Algorithm</p>
+            <a href="https://github.com/jashan-lefty/RSA-in-python" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+    
+    
+    <section id="devsecops-projects" class="project-section">
+        <h2>DevSecOps Projects</h2>
+        <article class="project">
+            <h3>Jenkins Pipeline for Secure CI/CD</h3>
+            <img src="images/Jenkins.png" alt="DevSecOps Project">
+            <p>The project is a React-based web application designed to demonstrate the integration of a
+                Jenkins pipeline for Continuous Integration and Continuous Deployment (CI/CD). The goal is to
+                automate the entire process of building, testing, code quality analysis, deployment, and
+                production release. React is used for building the user interface, providing a dynamic and
+                interactive web experience.</p>
+            <p>📌 Skills & Tools: Jenkins, Docker, CI/CD, DevSecOps, Static Code Analysis</p>
+            <a href="https://github.com/jashan-lefty/DevSecOps-Pipeline-with-Jenkins-Docker" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+    
+    <section id="scripting-projects" class="project-section">
+        <h2>Scripting Projects</h2>
+        <article class="project">
+            <h3>Ping using icmplib</h3>
+            <p>This Python project allows users to ping multiple hostnames and check their availability. 
+                Using the icmplib library, it sends four ICMP packets to the selected host, measuring response times and determining whether the host is reachable. The program starts with a predefined list of websites and lets users add more. 
+                It then displays the list and prompts users to select a hostname by index to initiate the ping. 
+                The program handles errors such as invalid input and unreachable hosts gracefully, ensuring robustness. This project enhances troubleshooting skills and helps in network diagnostics.</p>
+            <p>📌 Skills & Tools: Python, icmplib, loop structures for automation</p>
+            <a href="https://github.com/jashan-lefty/PingHosts" target="_blank">View on GitHub</a>
+            <br>
+            <br><br>
+            <h3>Custom Ping application</h3>
+            <img src="images/Custom ping.png" alt="Scripting Project">
+            <p>This is a python code that will create custom ICMP packets and send requests to any domain for ping. 
+                In this task, I created my own ping application, where I can ping IP and domain names of different websites, I used socket programming in Python to develop the code, although there were many challenges that I had to encounter and 
+                I had to take some help to understand the logic of Checksum calculation. Overall, there was a lot to learn from this task.</p>
+                <p>📌 Skills & Tools: Python, socket programming, checksums</p>
+                <a href="https://github.com/jashan-lefty/Ping-application" target="_blank">View on GitHub</a>
+        
+            <br>
+            <br><br>
+            <h3>Creating a DNS Server</h3>
+            <img src="images/DNS.png" style="width: 700px; height: auto;" alt="Scripting Project">
+            <p> This Python script simulates a local DNS server using UDP on port 53. The server listens for incoming hostname queries from clients and responds with predefined IP addresses and CNAME (Canonical Name) records stored in a dictionary. If a hostname matches an entry in the dictionary, the server returns the corresponding IP and CNAME; otherwise, it replies with "Host not found." 
+                This project demonstrates DNS resolution simulation and socket programming for network security research and testing.</p>
+                <p>📌 Skills & Tools: Python, UDP, Socket library</p>
+            <a href="https://github.com/jashan-lefty/DNS-Server-in-pyhton" target="_blank">View on GitHub</a>
+        
+            <br>
+            <br><br>
+            <h3>Firewall Handler for Spring4shell vulnerability</h3>
+            <img src="images/Firewall.png" style="width: 700px; height: auto;"  alt="Scripting Project">
+            <p> In this challenge, I analyzed the Spring4Shell (CVE-2022-22965) vulnerability, investigated security bypasses, and wrote an Incident Postmortem Report detailing the detection, impact, and resolution of the attack. 
+                I also implemented a firewall rule in Python to block malicious requests and prevent future exploitation.</p>
+                <p>📌 Skills & Tools: Python, incidence response, threat detection, SOC analysis, Firewall</p>
+            <a href="https://github.com/jashan-lefty/Spring4Shell/tree/main" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+    
+    <section id="Machine Learning" class="project-section">
+        <h2>Machine learning</h2>
+        <article class="project">
+            <h3>Comparison of Classification algorithms</h3>
+            <img src="images/machine.png"   alt="Machine learning">
+            <p> This project compares different classification algorithms on the Spambase dataset to determine which approach yields the highest accuracy. The algorithms tested include:
+                K-Nearest Neighbours (KNN)
+                Logistic Regression
+                Random Forest
+                Support Vector Machines (SVM)</p>
+                <p>📌 Skills & Tools: Python, Classification algorithms, Machine Learning</p>
+            <a href="https://github.com/jashan-lefty/Machine-learning" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+
+    <section id="Amazon AWS" class="project-section">
+        <h2>Amazon AWS</h2>
+        <article class="project">
+            <h3>Deploying a Wordpress Website and Amazon AWS</h3>
+            <img src="images/AWS.png"   alt="Machine learning">
+            <p> This project involves deploying a highly available WordPress application on AWS using services like EC2, RDS, ELB, S3, 
+                and CloudFormation. A custom VPC is created with public and private subnets, routing traffic via NAT and IGW. An RDS MySQL 
+                8.0.35 instance is set up in a private subnet, while an Application Load Balancer (ALB) in public subnets distributes traffic to EC2 instances hosting WordPress. These instances, launched with Amazon Linux 2, use user data scripts for setup and integrate with an S3 bucket for media storage. An Auto Scaling Group (ASG) with a Launch Template dynamically adjusts instances based on CPU utilization, deploying them into private subnets. CloudFormation templates manage the infrastructure, ensuring scalability and resilience. Testing includes verifying ALB access, 
+                ASG scaling, S3 integration, and RDS Multi-AZ functionality, demonstrating a robust AWS-hosted WordPress architecture.</p>
+                <p>📌 Skills & Tools: AWS EC2, RDS (MySQL 8.0.35), Elastic Load Balancer (ALB), S3, CloudFormation, Auto Scaling Group (ASG), VPC, Subnets, NAT Gateway, IGW, Amazon Linux 2, Bash Scripting, Apache/Nginx, WordPress, Offload Media Plugin, Security Groups, IAM Roles & Policies, CloudWatch, Route 53, Scaling Policies, Infrastructure as Code (IaC), High Availability Architecture, Networking & Security, System Administration.</p>
+            <a href="https://github.com/jashan-lefty/Cloud-templates" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Jashanpreet Singh | All Rights Reserved</p>
+    </footer>
+</body>
 </html>
